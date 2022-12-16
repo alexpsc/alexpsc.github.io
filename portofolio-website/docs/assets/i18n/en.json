@@ -1,0 +1,133 @@
+{
+    "Header.Item1": "About me",
+    "Header.Item2": "Experience",
+    "Header.Item3": "Projects",
+    "Header.Item4": "Contact",
+    "Header.Item5": "Services",
+    "Header.cvBtn": "Resume",
+    "Header.cvName": "CV_Alexandru_Pascu.pdf",
+    "Banner.Pretitle": "Hi, I'm",
+    "Banner.Description": "passionate about front end development, design and everything in between.",
+    "Banner.ActionBtn": "Get in touch",
+    "AboutMe.Title": "About me",
+    "AboutMe.Paragraphs": [
+        "I love to <span class='underline'> code </span>, build products that solve user problems with the latest technology available. I am highly motivated, always acquire for knowledge and eager to learn new technologies and apply them to build modern <span class='underline'> web applications</span>.",
+        "I have expertise in translating <span class='underline'> UI/UX </span> design wireframes with actual code to visual elements. I focus much on providing the best user experience on any device like mobile, desktop, tv, etc.",
+        "My skills also include implementing system improvements, optimizing sites, standardizing patterns, and suggesting and executing ideas that add value to the project I'm working on.",
+        "Some of the technologies that I have trained and worked on include (but are not limited to): "
+    ],
+    "Experience.Title": "Experience",
+    "Experience.Jobs": [
+        {
+            "Tab": "MindIt",
+            "Title": "Frontend developer",
+            "Date": "Ianuary 2022 - Present",
+            "Description": [
+                "Transforming mockup into HTML / CSS code and integrating them into applications",
+                "Developing and maintaining dynamic functionality of websites",
+                "Using Git as version control system for team code collaboration",
+                "Writing responsive Web pages",
+                "Fix bugs and add new functionality",
+                "Testing and debugging",
+                "Resolve cross-browser incompatibilities between Internet Explorer, Firefox & Google Chrome,"
+            ]
+        },
+        {
+            "Tab": "Freelancer",
+            "Title": "Frontend developer",
+            "Date": "April 2021 - December 2021",
+            "Description": [
+                "Transforming mockup into HTML / CSS code and integrating them into applications",
+                "Developing and maintaining dynamic functionality of websites",
+                "Using Git as version control system for team code collaboration",
+                "Writing responsive Web pages",
+                "Fix bugs and add new functionality for old projects",
+                "Testing and debugging",
+                "Resolve cross-browser incompatibilities between Internet Explorer, Firefox & Google Chrome,"
+            ]
+        },
+        {
+            "Tab": "Tech Push",
+            "Title": "Junior Tester",
+            "Date": "September 2020 - March 2021",
+            "Description": [
+                "Create test cases and test scenarios based on business requirements",
+                "Perform test execution for manual functional testing, regression testing and usability testing across multiple browser and device combinations",
+                "Properly log fix tasks and provide status updates",
+                "Maintain sprint updates in a timely manner",
+                "Actively participated in QA team meetings to discuss testing process"
+            ]
+        }
+    ],
+    "FeatureProjects.Title": "My projects",
+    "FeatureProjects.Label": "Featured Project",
+    "FeatureProjects.Projects": [
+        {
+            "Title": "Clips",
+            "Description": "Video sharing application using Angular, TypeScript, WebAssembly, Rust, RxJS, TailwindCSS, Firebase and much more! This is a Fullstack app",
+            "imgs": "assets/images/clips.PNG",
+            "ghLink": "https://github.com/alexpsc/Clips",
+            "goLink": "https://clips-eta.vercel.app",
+            "Technologies": [
+                "Angular",
+                "TypeScript",
+                "Rxjs",
+                "TailwindCss",
+                "Firebase"
+            ]
+        },
+        {
+            "Title": "Online Store",
+            "Description": "This is a Front end application for eComerce website. The app was built with vanilla JavaScript.",
+            "imgs": "assets/images/online_store.PNG",
+            "ghLink": "https://github.com/alexpsc/Online_Store_FP",
+            "goLink": "https://alexpsc.github.io/Online_Store_FP",
+            "Technologies": [
+                "Html",
+                "Css",
+                "JavaScript"
+            ]
+        },
+        {
+            "Title": "Netflix Homepage clone",
+            "Description": "A UI project where I designed and built my version of the Netflix homepage. I used HTML5, CSS3, and a bit of JavaScript for some functionalities.",
+            "imgs": "assets/images/netflix-clone.PNG",
+            "ghLink": "https://github.com/alexpsc/Netflix-Clone",
+            "goLink": "https://alexpsc.github.io/Netflix-Clone",
+            "Technologies": [
+                "Html",
+                "Css",
+                "JavaScript"
+            ]
+        },
+        {
+            "Title": "Weather Application",
+            "Description": "A weather web application using Html, Css, Javascript, Openweathermap api.",
+            "imgs": "assets/images/Weather_App.PNG",
+            "ghLink": "https://github.com/alexpsc/Weather-App",
+            "goLink": "https://alexpsc.github.io/Weather-App",
+            "Technologies": [
+                "Html",
+                "Css",
+                "JavaScript"
+            ]
+        },
+        {
+            "Title": "Shopping list app",
+            "Description": "Shopping list application",
+            "imgs": "assets/images/shoping_list.PNG",
+            "ghLink": "https://github.com/alexpsc/Shopping-list",
+            "goLink": "https://alexpsc.github.io/Shopping-list",
+            "Technologies": [
+                "Html",
+                "Css",
+                "JavaScript"
+            ]
+        }
+    ],
+    "OtherProjects.Title": "Services",
+    "Contact.Pretitle": "What’s Next",
+    "Contact.Title": "Get in touch!",
+    "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. Simple one-page design that features a profile letter with basic information about a person.",
+    "Contact.Btn": "Say Hello"
+}
