@@ -104,6 +104,7 @@
 
         &:before {
             content: '▹';
+
             position: absolute;
             left: 0;
             color: $Green;
@@ -116,7 +117,7 @@
 @media (max-width: 768px) {
     .jobs {
         .job-description {
-            padding: 0px;
+            // padding: 0px;
         }
     }
 

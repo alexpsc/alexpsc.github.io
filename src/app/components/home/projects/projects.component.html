@@ -15,10 +15,13 @@
                         <div class="img-container" style='width: auto;'>
                             <img class='img-feature-proyect rounded' [src]="project.imgs" [alt]="project.imgs"
                                width='600px'>
+                            <div
+                               class="overlay"></div>
                         </div>
                     </div>
                 </div>
-                <div [class.proyect-info-right]='i%2==0' [class.proyect-info-left]='i%2!=0' class="h-100">
+                <div [class.proyect-info-right]='i%2==0' [class.proyect-info-left]='i%2!=0' class="h-100"
+                   style="background-image: url('{{project.imgs}}')">
                     <div class="proyect-box">
                         <h4 [class.text-right]='i%2==0' [class.text-left]='i%2!=0' class="feature-proyect">
                             {{"FeatureProjects.Label" | translate}}</h4>
@@ -57,7 +60,10 @@
                         <div class="img-container" style='width: auto;'>
                             <img class='img-feature-proyect rounded' [src]="project.imgs" [alt]="project.imgs"
                                width='600px'>
+                            <div
+                               class="overlay"></div>
                         </div>
+
                     </div>
                 </div>
             </div>

@@ -28,7 +28,7 @@ export class BannerComponent {
     var options = {
       strings: ['', 'Frontend Developer', 'Web Developer', 'Mobile Developer'],
       typeSpeed: 140,
-      backSpeed: 160,
+      backSpeed: 300,
       loop: true,
     };
 
