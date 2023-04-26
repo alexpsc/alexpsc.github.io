@@ -1,32 +1,51 @@
-<section class="section contact" id='contact'>
-    <div class="container">
+<section class="section contact" id="contact">
+  <div class="container">
+    <div class="section-box">
+      <div class="mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <h3 class="contact-pre-title big-subtitle">
+          04. {{ "Contact.Pretitle" | translate }}
+        </h3>
+        <h4 class="e-font contact-title big-title">
+          {{ "Contact.Title" | translate }}
+        </h4>
+      </div>
+      <p data-aos="fade-up" data-aos-duration="1000">
+        {{ "Contact.Content" | translate }}
+      </p>
+      <div class="mb-3" data-aos="fade-up" data-aos-duration="1000">
+        <label for="exampleFormControlInput1" class="form-label"
+          >Email address</label
+        >
+        <input
+          type="email"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="name@example.com"
+        />
+      </div>
+      <div class="mb-3" data-aos="fade-up" data-aos-duration="1000">
+        <label for="exampleFormControlTextarea1" class="form-label"
+          >Message</label
+        >
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="4"
+        ></textarea>
+      </div>
 
-
-        <div class="section-box">
-            <div class="mb-4" data-aos="fade-up" data-aos-duration="1000">
-                <h3 class="contact-pre-title big-subtitle">04. {{"Contact.Pretitle" | translate}}</h3>
-                <h4 class="e-font contact-title big-title">
-                    {{"Contact.Title" | translate}}
-                </h4>
-            </div>
-            <p data-aos="fade-up" data-aos-duration="1000">
-                {{"Contact.Content" | translate}}
-            </p>
-            <!-- <div class="mb-3" data-aos="fade-up" data-aos-duration="1000">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="mb-3" data-aos="fade-up" data-aos-duration="1000">
-                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
-            </div> -->
-
-            <div class="mt-5">
-                <a target="_blank" class="main-btn" data-aos="fade-up"
-                   data-aos-duration="1000" href="mailto:alexandru.pascu1985@gmail.com" target="_black">
-                    {{"Contact.Btn" | translate}}
-                </a>
-            </div>
-        </div>
+      <div class="mt-5">
+        <a
+          target="_blank"
+          class="main-btn"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          href="mailto:alexandru.pascu1985@gmail.com"
+          target="_black"
+        >
+          {{ "Contact.Btn" | translate }}
+        </a>
+      </div>
     </div>
+  </div>
 </section>
