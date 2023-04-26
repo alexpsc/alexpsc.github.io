@@ -1,133 +1,135 @@
 {
-  "Header.Item1": "About me",
-  "Header.Item2": "Experience",
-  "Header.Item3": "Projects",
-  "Header.Item4": "Contact",
-  "Header.Item5": "Services",
-  "Header.cvBtn": "Resume",
-  "Header.cvName": "CV_Alexandru_Pascu.pdf",
-  "Banner.Pretitle": "Hi, I'm",
-  "Banner.Description": "passionate about front end development, design and everything in between.",
-  "Banner.ActionBtn": "Get in touch",
-  "AboutMe.Title": "About me",
-  "AboutMe.Paragraphs": [
-    "I love to <span class='underline'> code </span>, build products that solve user problems with the latest technology available. I am highly motivated, always acquire for knowledge and eager to learn new technologies and apply them to build modern <span class='underline'> web applications</span>.",
-    "I have expertise in translating <span class='underline'> UI/UX </span> design wireframes with actual code to visual elements. I focus much on providing the best user experience on any device like mobile, desktop, tv, etc.",
-    "My skills also include implementing system improvements, optimizing sites, standardizing patterns, and suggesting and executing ideas that add value to the project I'm working on.",
-    "Some of the technologies that I have trained and worked on include (but are not limited to): "
-  ],
-  "Experience.Title": "Experience",
-  "Experience.Jobs": [
+  
+    "Header.Item1": "Despre mine",
+    "Header.Item2": "Experiența",
+    "Header.Item3": "Proiecte",
+    "Header.Item4": "Contact",
+    "Header.Item5": "Servicii",
+    "Header.cvBtn": "CV",
+    "Header.cvName": "CV_Alexandru_Pascu.pdf",
+    "Banner.Pretitle": "Bună, sunt",
+    "Banner.Description": "pasionat de front-end development, design și tot ce se află între ele.",
+    "Banner.ActionBtn": "Contactează-mă!",
+    "AboutMe.Title": "Despre mine",
+    "AboutMe.Paragraphs": [
+    "Îmi place să scriu <span class='underline'> cod </span>, să construiesc produse care rezolvă problemele utilizatorilor cu cea mai recentă tehnologie disponibilă. Sunt foarte motivat, dobândesc mereu cunoștințe și dornic să învăț noi tehnologii și să le aplic pentru a construi <span class='underline'>aplicații web</span> moderne.",
+    "Am experiență în transformarea wireframe-urilor de design <span class='underline'>UI/UX</span> în elemente vizuale cu cod real. Mă concentrez foarte mult pe oferirea celei mai bune experiențe pentru utilizator pe orice dispozitiv, cum ar fi telefonul mobil, desktop-ul, televizorul, etc.",
+    "Abilitățile mele includ și implementarea îmbunătățirilor sistemului, optimizarea site-urilor, standardizarea tiparelor și sugestia și punerea în aplicare a ideilor care adaugă valoare proiectului la care lucrez.",
+    "Unele dintre tehnologiile pe care le-am învățat și la care am lucrat includ (dar nu se limitează la):"
+    ],
+    "Experience.Title": "Experiența",
+    "Experience.Jobs": [
     {
-      "Tab": "MindIt",
-      "Title": "Frontend developer",
-      "Date": "Ianuary 2022 - Present",
-      "Description": [
-        "Transforming mockup into HTML / CSS code and integrating them into applications",
-        "Developing and maintaining dynamic functionality of websites",
-        "Using Git as version control system for team code collaboration",
-        "Writing responsive Web pages",
-        "Fix bugs and add new functionality",
-        "Testing and debugging",
-        "Resolve cross-browser incompatibilities between Internet Explorer, Firefox & Google Chrome,"
-      ]
+    "Tab": "MindIt",
+    "Title": "Frontend developer",
+    "Date": "Ianuarie 2022 - Prezent",
+    "Description": [
+    "Transformarea machetelor în cod HTML/CSS și integrarea lor în aplicații",
+    "Dezvoltarea și menținerea funcționalității dinamice a site-urilor web",
+    "Utilizarea Git ca sistem de control al versiunilor pentru colaborarea echipei de cod",
+    "Scrierea de pagini web responsive",
+    "Rezolvarea erorilor și adăugarea de funcționalități noi",
+    "Testarea si fixarea bugurilor",
+    "Rezolvarea incompatibilităților între browsere cum ar fi Internet Explorer, Firefox și Google Chrome"
+    ]
     },
     {
       "Tab": "Freelancer",
       "Title": "Frontend developer",
       "Date": "April 2021 - December 2021",
       "Description": [
-        "Transforming mockup into HTML / CSS code and integrating them into applications",
-        "Developing and maintaining dynamic functionality of websites",
-        "Using Git as version control system for team code collaboration",
-        "Writing responsive Web pages",
-        "Fix bugs and add new functionality for old projects",
-        "Testing and debugging",
-        "Resolve cross-browser incompatibilities between Internet Explorer, Firefox & Google Chrome,"
+        "Transformarea machetelor în cod HTML/CSS și integrarea lor în aplicații",
+        "Dezvoltarea și menținerea funcționalității dinamice a site-urilor web",
+        "Utilizarea Git ca sistem de control al versiunilor pentru colaborarea echipei de cod",
+        "Scrierea de pagini web responsive",
+        "Rezolvarea erorilor și adăugarea de funcționalități noi",
+        "Testarea si fixarea bugurilor",
+        "Rezolvarea incompatibilităților între browsere cum ar fi Internet Explorer, Firefox și Google Chrome"
       ]
-    },
-    {
+      },
+      {
       "Tab": "Tech Push",
       "Title": "Junior Tester",
       "Date": "September 2020 - March 2021",
       "Description": [
-        "Create test cases and test scenarios based on business requirements",
-        "Perform test execution for manual functional testing, regression testing and usability testing across multiple browser and device combinations",
-        "Properly log fix tasks and provide status updates",
-        "Maintain sprint updates in a timely manner",
-        "Actively participated in QA team meetings to discuss testing process"
-      ]
-    }
-  ],
-  "FeatureProjects.Title": "My projects",
-  "FeatureProjects.Label": "Featured Project",
-  "FeatureProjects.Projects": [
-    {
+        "Crearea cazurilor de testare și a scenariilor de testare pe baza cerințelor de afaceri",
+        "Efectuarea testelor pentru testarea funcțională manuală, testarea de regresie și testarea de utilizabilitate pe mai multe combinații de browsere și dispozitive",
+        "Înregistrarea corespunzătoare a taskurilor si actualizarea statusurilor",
+        "Menținerea actualizărilor sprint-ului într-un mod oportun",
+        "Participarea activă la întâlnirile echipei de asigurare a calității pentru a discuta procesul de testare"
+        ]
+      }
+    ],
+    
+      "FeatureProjects.Title": "Proiectele mele",
+      "FeatureProjects.Label": "Proiecte",
+      "FeatureProjects.Projects": [
+      {
       "Title": "Clips",
-      "Description": "Video sharing application using Angular, TypeScript, WebAssembly, Rust, RxJS, TailwindCSS, Firebase and much more! This is a Fullstack app",
+      "Description": "O aplicație de partajare a videoclipurilor folosind Angular, TypeScript, WebAssembly, Rust, RxJS, TailwindCSS, Firebase și multe altele! Aceasta este o aplicație Fullstack",
       "imgs": "assets/images/clips.PNG",
       "ghLink": "https://github.com/alexpsc/Clips",
       "goLink": "https://clips-eta.vercel.app",
       "Technologies": [
-        "Angular",
-        "TypeScript",
-        "Rxjs",
-        "TailwindCss",
-        "Firebase"
+      "Angular",
+      "TypeScript",
+      "Rxjs",
+      "TailwindCss",
+      "Firebase"
       ]
-    },
-    {
-      "Title": "Online Store",
-      "Description": "This is a Front end application for eComerce website. The app was built with vanilla JavaScript.",
+      },
+      {
+      "Title": "Magazin online",
+      "Description": "Aceasta este o aplicație Front End pentru site-ul de eComerce. Aplicația a fost construită cu JavaScript nativ.",
       "imgs": "assets/images/online_store.PNG",
       "ghLink": "https://github.com/alexpsc/Online_Store_FP",
       "goLink": "https://alexpsc.github.io/Online_Store_FP",
       "Technologies": [
-        "Html",
-        "Css",
-        "JavaScript"
+      "Html",
+      "Css",
+      "JavaScript"
       ]
-    },
-    {
-      "Title": "Netflix Homepage clone",
-      "Description": "A UI project where I designed and built my version of the Netflix homepage. I used HTML5, CSS3, and a bit of JavaScript for some functionalities.",
+      },
+      {
+      "Title": "Clone Netflix",
+      "Description": "Un proiect UI în care am proiectat și am construit versiunea mea a paginii de start Netflix. Am folosit HTML5, CSS3 și un pic de JavaScript pentru unele funcționalități.",
       "imgs": "assets/images/netflix-clone.PNG",
       "ghLink": "https://github.com/alexpsc/Netflix-Clone",
       "goLink": "https://alexpsc.github.io/Netflix-Clone",
       "Technologies": [
-        "Html",
-        "Css",
-        "JavaScript"
+      "Html",
+      "Css",
+      "JavaScript"
       ]
-    },
-    {
-      "Title": "Weather Application",
-      "Description": "A weather web application using Html, Css, Javascript, Openweathermap api.",
+      },
+      {
+      "Title": "Aplicație meteo",
+      "Description": "O aplicație web pentru prognoza meteo, folosind Html, Css, Javascript și API-ul Openweathermap.",
       "imgs": "assets/images/Weather_App.PNG",
       "ghLink": "https://github.com/alexpsc/Weather-App",
       "goLink": "https://alexpsc.github.io/Weather-App",
       "Technologies": [
-        "Html",
-        "Css",
-        "JavaScript"
+      "Html",
+      "Css",
+      "JavaScript"
       ]
-    },
-    {
-      "Title": "Shopping list app",
-      "Description": "Shopping list application",
+      },
+      {
+      "Title": "Aplicație listă de cumpărături",
+      "Description": "Aplicație de listă de cumpărături",
       "imgs": "assets/images/shoping_list.PNG",
       "ghLink": "https://github.com/alexpsc/Shopping-list",
       "goLink": "https://alexpsc.github.io/Shopping-list",
       "Technologies": [
-        "Html",
-        "Css",
-        "JavaScript"
+      "Html",
+      "Css",
+      "JavaScript"
       ]
-    }
-  ],
-  "OtherProjects.Title": "Services",
-  "Contact.Pretitle": "What’s Next",
-  "Contact.Title": "Get in touch!",
-  "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me.",
-  "Contact.Btn": "Say Hello"
-}
+      }
+      ],
+      "OtherProjects.Title": "Servicii",
+      "Contact.Pretitle": "Ce urmează",
+      "Contact.Title": "Contacteaza-ma!",
+      "Contact.Content": "Voi fi bucuros să primesc contactul tău dacă dorești să discutăm despre noi oportunități. Scrie-mi, și îți voi răspunde în cel mai scurt timp.",
+      "Contact.Btn": "Contact"
+  }
